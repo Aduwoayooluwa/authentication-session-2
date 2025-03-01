@@ -1,0 +1,133 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  background-color: #f5f7fa;
+}
+
+.login-card {
+  width: 100%;
+  max-width: 450px;
+  padding: 40px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.login-title {
+  font-size: 28px;
+  font-weight: 700;
+  margin: 0 0 8px;
+  color: #333;
+  text-align: center;
+}
+
+.login-subtitle {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form-group label {
+  font-size: 14px;
+  font-weight: 500;
+  color: #555;
+}
+
+.form-group input {
+  padding: 14px 16px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: #4a69e2;
+  box-shadow: 0 0 0 2px rgba(74, 105, 226, 0.1);
+}
+
+.login-button {
+  background-color: #4a69e2;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 14px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login-button:hover {
+  background-color: #3a57d0;
+}
+
+.login-button:disabled {
+  background-color: #a0aed0;
+  cursor: not-allowed;
+}
+
+.form-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.form-footer p {
+  font-size: 14px;
+  color: #666;
+  margin: 0;
+}
+
+.form-footer a {
+  color: #4a69e2;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.form-footer a:hover {
+  color: #3a57d0;
+  text-decoration: underline;
+}
+
+.forgot-password {
+  font-size: 14px;
+}
+
+.success-message {
+  background-color: #e6f4ea;
+  color: #137333;
+  padding: 12px 16px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.error-message {
+  background-color: #fce8e6;
+  color: #c5221f;
+  padding: 12px 16px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  text-align: center;
+} 
