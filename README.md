@@ -31,9 +31,9 @@
 Do this:
 1. **Make the script executable**:
    ```bash
-   chmod +x run.sh
+   chmod +x run-files.sh
    ```
 2. **Run the script**:
    ```bash
-   ./run.sh
+   ./run-files.sh
    ```
